@@ -1,15 +1,11 @@
 @extends('app')
 
 @section('content')
-    <h2>Games</h2>
 
-    @if ( !$games->count() )
-        You have no games
-    @else
-        <ul>
-            @foreach( $games as $game )
-                <li>{{ $game->name }}</li>
-            @endforeach
-        </ul>
-    @endif
+    <div class="form-group" style="width:400px;">
+        {!! Form::label('game', 'Game:') !!}
+        {!! Form::select('game_id', $games, null, ['class' => 'form-control']) !!}
+    </div>
+
+
 @endsection

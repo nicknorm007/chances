@@ -10,7 +10,7 @@ class GamesController extends Controller
     public function index()
     {
 
-        $games = Game::all();
+        $games = Game::all(['id', 'name'])->pluck('name', 'id');
         return view('games.index', compact('games'));
 
     }
