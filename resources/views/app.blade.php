@@ -10,6 +10,7 @@
     <title>Laravel</title>
 
     <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
     <style>
         .content {margin:auto 30px}
         label{display:block}

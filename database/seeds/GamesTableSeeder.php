@@ -10,9 +10,11 @@ class GamesTableSeeder extends Seeder {
         DB::table('games')->delete();
 
         $games = array(
-            ['id' => 1, 'name' => 'Game 1', 'slug' => 'game-1', 'created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' => 2, 'name' => 'Game 2', 'slug' => 'game-2', 'created_at' => new DateTime, 'updated_at' => new DateTime],
-            ['id' => 3, 'name' => 'Game 3', 'slug' => 'game-3', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 1, 'name' => 'Pick-X Daily', 'slug' => 'game-1', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 2, 'name' => 'Pick-X Time', 'slug' => 'game-2', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 3, 'name' => 'Combo-x', 'slug' => 'game-3', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+            ['id' => 4, 'name' => 'Combo-time', 'slug' => 'game-4', 'created_at' => new DateTime, 'updated_at' => new DateTime],
+
         );
 
         // Uncomment the below to run the seeder
