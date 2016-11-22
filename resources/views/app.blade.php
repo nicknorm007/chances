@@ -35,12 +35,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Take a Chance</a>
+            <a class="navbar-brand" href="/">Take a Chance</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="/index.php">Lotto Games</a></li>
+                <li><a href="/games">Lotto Games</a></li>
             </ul>
         </div>
     </div>

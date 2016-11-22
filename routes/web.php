@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::resource('games', 'GamesController');
+
+Route::bind('games', function($value, $route) {
+    return App\Game::whereSlug($value)->first();
 });
 
-Route::resource('games', 'GamesController');
+Route::get('/', function () {
+    return view('app');
+});
