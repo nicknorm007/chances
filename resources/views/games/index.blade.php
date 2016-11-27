@@ -17,7 +17,8 @@
             <br/>
 
             <div v-if="selected">
-                {!! Form::submit('Generate Numbers!', ['class' => 'btn-primary']) !!}
+                {!! Form::submit('Generate Numbers!', ['type' => 'button',
+                'v-on:click.prevent' => 'doSubmit', 'class' => 'btn-primary']) !!}
             </div>
 
         </div>

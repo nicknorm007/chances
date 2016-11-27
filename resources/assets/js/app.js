@@ -5,5 +5,11 @@ const app = new Vue({
     data: {
         message: '',
         selected: ''
+    },
+    methods: {
+        doSubmit: function (event) {
+            alert("Nick is here");
+
+        }
     }
 })
