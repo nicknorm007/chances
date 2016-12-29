@@ -8,7 +8,7 @@ const app = new Vue({
     },
     methods: {
         doSubmit: function (event) {
-            alert("Nick is here");
+            alert(this.selected);
 
         }
     }

@@ -11,3 +11,22 @@
 nav.navbar.navbar-default {
   background-color: #4ededa;
 }
+#app {
+  width: 100%;
+  overflow:auto;
+}
+
+.content {
+  float:left;
+  width: 50%;
+  background: #f6ffea;
+  height: 600px;
+}
+
+.results {
+  float: left;
+  background: #f6ffea;
+  height: 600px;
+  width: 42%;
+  margin-right: 5px;
+}
